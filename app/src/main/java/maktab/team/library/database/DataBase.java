@@ -24,7 +24,7 @@ public class DataBase {
             config.setDataSourceClassName("org.postgresql.ds.PGSimpleDataSource");
             config.addDataSourceProperty("serverName", "localhost");
             config.addDataSourceProperty("portNumber", "5432");
-            config.addDataSourceProperty("databaseName", "maktab");
+            config.addDataSourceProperty("databaseName", "postgres");
             config.addDataSourceProperty("user", "postgres");
             config.addDataSourceProperty("password", "4447");
 
